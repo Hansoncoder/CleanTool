@@ -1,6 +1,7 @@
 import Foundation
 import CommandLineKit
 import Rainbow
+import CleanToolKit
 
 let cli = CommandLineKit.CommandLine()
 
@@ -64,8 +65,6 @@ let project = projectOption.value ?? "."
 let resourceExtensions = resourceExtensionOption.value ?? ["png","jpg","imageset"]
 let fileExtensions = fileExtensionsOption.value ?? ["m","mm","swift","xib","storyboard"]
 let excludePaths = excludePathsOption.value ?? []
-
-
 
 
 
